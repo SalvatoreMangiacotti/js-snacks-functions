@@ -12,7 +12,7 @@ const name = 'Mario';
 
 function userGreetings(userName) {
     
-    const todayDate = new Date //('January 9, 01 12:00');
+    const todayDate = new Date; //('January 9, 01 12:00')
     const todayHour = todayDate.getHours();
 
     if (todayHour < 13) {

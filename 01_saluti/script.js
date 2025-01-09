@@ -5,9 +5,9 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 
-function userGreet(nome) {
+function userGreet(name) {
 
-    return "ciao " + nome;
+    return "ciao " + name;
 
 }
 
