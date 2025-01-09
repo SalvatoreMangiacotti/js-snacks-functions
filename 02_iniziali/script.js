@@ -5,9 +5,22 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+function getStringsFirstChar(arrayItems) {
+
+    let emptyArray = [];
+
+    for (let i = 0; i < arrayItems.length; i++) {
+
+        emptyArray.push(arrayItems[i].charAt(0));
+
+    }
+
+    return emptyArray;
+
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+console.log(getStringsFirstChar(names));
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
