@@ -10,7 +10,7 @@ function getVowelsNumber(string) {
     // Creo una variabile flag a cui passo un valore iniziale di 0
     let counter = 0;
 
-    // Assegno alla variabile vowels tutte le possibili vocali
+    // Assegno alla variabile vowels un array con tutte le possibili vocali
     const vowels = ["a", "e", "i", "o", "u"];
 
     // Ciclo sulla lunghezza della parola per controllare sono "incluse" (.includes) le vocali all'interno della parola
